@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./Images/netfix\ bg\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+}
+header #Left img{
+    width: 20%;
+    margin-top: -33px;
+
+}
+
+header #right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style-type: none;
+    position: relative;
+}
+
+header #right select{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    border-radius: 5px;
+}
+.fa-solid.fa-globe{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+
+}
+button{
+    background-color: red;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+}
+
+select{
+    background-color: transparent;
+    color: white;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    border-radius: 4px;
+}
+#content{
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+section h1{
+    font-size: 3rem;
+}
+section h3{
+    font-size: 1.5rem;
+}
+
+#content #email{
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+#content button{
+      width: 20%;
+      height: 45px;
+      background-color: red;
+      border-radius: 5px;
+      border: none;
+      font-size: 2rem;
+      color: white;
+      /* margin-top: 1rem; */
+      padding-bottom: 0.5rem;
+}
+
+#enjoy{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 23rem;
+}
+
+#enjoy div{
+    width: 45%;
+}
+
+#enjoy #smart h1{
+    font-size: 3rem;
+}
+
+#enjoy #smart p{
+    font-size: 1.5rem;
+}
+
+#enjoy #tv{
+   position: relative;
+}
+
+#enjoy #tv img{
+    width: 100;
+    position: relative;
+    z-index: 2;
+}
+
+#enjoy #tv video{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 98%;
+    z-index: 1;
+}
+#watch{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 11rem;
+}
+
+#watch div{
+    width: 50%;
+}
+#watch #TV h1{
+    font-size: 4rem;
+}
+
+#watch #TV p{
+    font-size: 1.5rem;
+    /* margin-top: 0rem; */
+}
+
+#watch #smarttv{
+    position: relative;
+}
+
+#watch #smarttv img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+#watch #smarttv video{
+    position: absolute;
+    top:3rem;
+    left: 9rem;
+    width: 55% ;
+    z-index: 1;
+}
+#cartoon{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 11rem;
+}
+#cartoon div{
+    width: 100%;
+}
+
+#cartoon #children h1{
+    font-size: 4rem;
+}
+
+#cartoon #children p{
+    font-size: 1.5rem;
+}
+#cartoon img{
+    width: 100%;
+}
+
+#box{
+    /* display: flex; */
+    text-align: center; 
+    margin: auto;
+    color: white;
+    margin-top: 5rem;
+    margin-top: 0 0 2rem 0;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+
+}
+#box p{
+    font-size: 1.5rem;
+}
+
+#email-id{
+    width: 20%;
+    height: 3rem;
+    padding-left: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(15,15,15);
+    outline: none;
+}
+#email-id::placeholder{
+    color:grey;
+}
+#email-id:hover{
+    outline: 2px solid white;
+    color: white;
+}
+
+#but-ton{
+    height: 4rem;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    color: white ;
+    background-color: red;
+}
+hr{
+    color: darkgray;
+    width: 100%;
+}
+#download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    color: white;
+}
+
+#download #mobile{
+    width: 45%;
+    position: relative;
+}
+
+#download #mobile #ele{
+    width: 100%;
+}
+
+#download #offline{
+    width: 45%;   
+}
+
+#download #offline h1{
+    font-size: 3rem;
+}
+#download #offline p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#boxid{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgba(128, 128, 128, 0.849);
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0%;
+    left: 14%;
+    background-color: black;
+}
+#boxid #strange{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#boxid #strange img{
+    width: 100%;
+}
+#boxid #strange h3{
+    font-size: 1rem;
+}
+#boxid #strange p{
+    color: rgb(0,113,213);
+}
+
+#boxid #gif{
+    width: 20%;
+}
+#boxid #gif img{
+    width: 100%;
+}
+
+#menu{
+    color: white;
+    margin: 12px auto;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+#queans{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+#queans li{
+    list-style: none;
+    width: 100%;
+    padding: 3px;
+}
+#queans li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: -0.5rem;
+    cursor: pointer;
+    position: relative;
+    background:rgb(45,45,45) ;
+}
+
+label::after{
+    content: '+';
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+#queans #content{
+    background:rgb(45,45,45);
+    text-align: left;
+    padding: 0 20px;
+    height: 0;
+    overflow: hidden;
+    margin: 5px;
+    transition: max-height 0.5s padding 0.5s;
+}
+
+#queans input[type="radio"].checked + label + #content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+#queans input[type="radio"].checked + label::after{
+    transform: rotate(135deg);
+
+}
